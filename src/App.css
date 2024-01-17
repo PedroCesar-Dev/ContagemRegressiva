@@ -1,0 +1,35 @@
+.container{
+  min-width: 50%;
+  min-height: 300px;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  
+}
+h1, h3{
+  font-weight: bolder;
+
+  background: #F6F8F9;
+  background: radial-gradient(circle farthest-corner at center center, #F6F8F9 0%, #E5EBEE 30%, #D7DEE3 60%, #F5F7F9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+
+}
+.contagem-regressiva{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  gap: 2rem;
+}
+.App{
+  min-width: 100vw;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
